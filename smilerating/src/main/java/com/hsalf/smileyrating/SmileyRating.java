@@ -46,11 +46,11 @@ public class SmileyRating extends View implements TouchActiveIndicator {
     private static final FractionEvaluator FRACTION_EVALUATOR = new FractionEvaluator();
 
     private Smiley[] mSmileys = new Smiley[]{
-            new Terrible(), new Bad(), new Okay(), new Good(), new Great()
+            new Terrible(), new Okay(), new Great()
     };
 
     private Text[] mTitlePoints = new Text[]{
-            new Text(), new Text(), new Text(), new Text(), new Text()
+            new Text(), new Text(), new Text()
     };
     private RectF[] mPlaceHolders = new RectF[mSmileys.length];
     private Path[] mPlaceHolderPaths = new Path[mSmileys.length];
